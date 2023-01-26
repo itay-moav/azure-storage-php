@@ -1,5 +1,5 @@
 {
-    "name": "microsoft/azure-storage",
+    "name": "itay-moav/azure-storage",
     "description": "This project provides a set of PHP client libraries that make it easy to access Microsoft Azure storage APIs.",
     "keywords": [ "php", "azure", "storage", "sdk" ],
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.6.0",
-		"guzzlehttp/guzzle": "~6.0|^7.0"
+        "guzzlehttp/guzzle": "^7.5"
     },
     "require-dev": {
         "phpunit/phpunit": "~4.8.35",
