@@ -122,7 +122,8 @@ class ServiceRestProxy extends RestProxy
                         "decode_content" => true,
                         "config" => [
                             "curl" => [
-                                CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2
+                                //ITAY TODO restore on php8 : CURLOPT_SSLVERSION => CURL_SSLVERSION_TLSv1_2
+                                32 => 6
                             ]
                         ]
                     ),
